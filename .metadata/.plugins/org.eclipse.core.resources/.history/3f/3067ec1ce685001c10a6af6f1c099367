@@ -10,12 +10,12 @@ spring.datasource.username=root
 # spring.datasource.password=password
 spring.datasource.password=root
 # JPA DB Platform
-spring.jpa.database-platform=org.hibernate.dialect.MySQL57Dialect
-# spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#spring.jpa.database-platform=org.hibernate.dialect.MySQL57Dialect
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 # JPA Show SQL
 spring.jpa.show-sql = true
 # JPA Hibernate AUTO DDL (for changes on entities to be automatically made in DB)
 spring.jpa.hibernate.ddl-auto = update
-# spring.h2.console.enabled=true
-# spring.h2.console.path=/h2
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2
 
