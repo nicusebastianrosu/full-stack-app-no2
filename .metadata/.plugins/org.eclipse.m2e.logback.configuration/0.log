@@ -3157,3 +3157,6 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2022-02-04 20:13:59,354 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-04 20:13:59,354 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-02-04 20:13:59,354 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Rosu\Desktop\full-stack-app-no2\demo\src\test\resources
+2022-02-04 20:43:44,080 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@3d8f5a0c{STOPPING}[10.0.6,sto=0]
+2022-02-04 20:43:44,107 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7d0ee8e7{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2022-02-04 20:43:44,134 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1e0212e{/help,null,STOPPED}

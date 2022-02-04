@@ -6689,3 +6689,15 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-04 20:09:36.238
 !MESSAGE executing callback sts4.classpath.icemCZEU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-04 20:43:08.841
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.icemCZEU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-04 20:43:08.848
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.icemCZEU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-04 20:43:08.848
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-02-04 20:43:08.849
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.icemCZEU => OK
