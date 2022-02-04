@@ -1,0 +1,7 @@
+package com.component;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class LoadUsersInDB implements CommandLineRunner {
+
+}

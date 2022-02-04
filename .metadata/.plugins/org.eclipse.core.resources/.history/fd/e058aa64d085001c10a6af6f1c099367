@@ -1,0 +1,12 @@
+package com.configuration;
+
+import org.springframework.beans.factory.annotation.Configurable;
+
+@Configurable
+public class PasswordConfig {
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
+	}
+
+}

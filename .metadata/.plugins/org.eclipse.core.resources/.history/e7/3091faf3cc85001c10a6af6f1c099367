@@ -1,0 +1,16 @@
+package com.configuration;
+
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+	@Override
+	public void configure(HttpSecurity httpSecurity) throws Exception {
+
+		httpSecurity.csrf().disable().formLogin().loginProcessingUrl("/login").and().httpBasic().and()
+				.authorizeRequests().antMatchers("/login").permitAll().anyRequest().authenticated();
+	}
+
+}
